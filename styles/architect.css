@@ -17,9 +17,19 @@
     cursor: pointer;
 
 }
+
 .text-lightgray {
     color: #727272;
 }
+
+.section-title {
+    font-size: 45px;
+    /*45px or 2.8rem */
+    font-weight: 700;
+    color: #131313;
+}
+
+/* agher nav-title k section-title banaisi and shared css e ni ashchi */
 
 /* header styles */
 header {
@@ -32,13 +42,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.nav-title {
-    font-size: 45px;
-    /*45px or 2.8rem */
-    font-weight: 700;
-    color: #131313;
 }
 
 nav>ul {
@@ -138,13 +141,16 @@ main {
         padding: 20px;
     }
 
-    nav,.teams-container  {
+    nav,
+    .teams-container {
         flex-direction: column;
     }
-    .teams-img-container{
+
+    .teams-img-container {
         grid-template-columns: 1fr;
-    } 
-    .teams-content{
+    }
+
+    .teams-content {
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -156,7 +162,8 @@ main {
         padding: 20px;
     }
 
-    nav, .teams-container {
+    nav,
+    .teams-container {
         flex-direction: column;
     }
 }
